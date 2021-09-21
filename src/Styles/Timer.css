@@ -1,0 +1,32 @@
+.timer-div {
+  border: black solid 2.2px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 7px;
+  margin: 7px;
+  margin-top: 45px;
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.time {
+  margin: 0;
+  color: rgb(24, 24, 24);
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.start-button,
+.Reset-button {
+  background-color: gray;
+  width: 75px;
+  border-radius: 3px;
+  font-family: "Pacifico", cursive;
+  transition: 0.6s ease all;
+}
+.start-button:hover,
+.Reset-button:hover {
+  background-color: rgb(24, 24, 24);
+  color: antiquewhite;
+  cursor: pointer;
+}
